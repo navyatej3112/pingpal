@@ -1,0 +1,19 @@
+endpoints:
+  - name: GitHub API
+    url: https://api.github.com
+    method: GET
+    interval_seconds: 60
+    timeout_seconds: 5
+  
+  - name: HTTPBin 200
+    url: https://httpbin.org/status/200
+    method: GET
+    interval_seconds: 30
+    timeout_seconds: 5
+  
+  - name: HTTPBin 500
+    url: https://httpbin.org/status/500
+    method: GET
+    interval_seconds: 30
+    timeout_seconds: 5
+

@@ -2,6 +2,8 @@
 
 A lightweight uptime and latency monitor with a Python collector and Streamlit dashboard. Monitor multiple endpoints concurrently, track uptime percentages, and visualize latency trends over time.
 
+![PingPal Dashboard](dashboard.png)
+
 ## Features
 
 - **🔄 Concurrent Monitoring**: Non-blocking async checks for multiple endpoints with independent intervals
